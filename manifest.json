@@ -2,7 +2,6 @@
   "name": "Autofocus",
   "version": "1.0",
   "description": "autofocus input fields",
-  "background_page": "background.html",
   "content_scripts": [
     { "matches": ["http://*/*"], "js": ["jquery.js", "cs.js"] }
   ],
