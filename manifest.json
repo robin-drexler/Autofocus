@@ -1,12 +1,13 @@
 {
   "name": "Autofocus",
-  "version": "1.0",
-  "description": "autofocus input fields",
+  "version": "0.3",
+  "icons": { 
+      "16": "icon_16.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png" 
+  },
+  "description": "Auto focus input fields on popular sites.",
   "content_scripts": [
     { "matches": ["http://*/*"], "js": ["jquery.js", "cs.js"] }
-  ],
-  "permissions": [
-    "tabs",
-    "http://ajax.googleapis.com/*"
   ]
 }
