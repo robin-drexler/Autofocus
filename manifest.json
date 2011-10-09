@@ -1,6 +1,6 @@
 {
   "name": "Autofocus",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "icons": { 
       "16": "icon_16.png",
       "48": "icon_48.png",
@@ -8,6 +8,6 @@
   },
   "description": "Auto focus search input fields on every site.",
   "content_scripts": [
-    { "matches": ["http://*/*"], "js": ["jquery.js", "cs.js"] }
+    { "matches": ["<all_urls>"], "js": ["jquery.js", "cs.js"] }
   ]
 }
